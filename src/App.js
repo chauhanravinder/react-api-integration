@@ -29,7 +29,7 @@ function App() {
       }
 
       const data = await response.json();
-      console.log(data);
+      console.log(data, "datadata");
       // let transformedMovies = data.results.map((moviesData, index) => {
       //   return {
       //     id: moviesData.episode_id,
